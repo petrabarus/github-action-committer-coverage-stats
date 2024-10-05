@@ -8,6 +8,7 @@ import (
 )
 
 type Config struct {
+	Workspace     string
 	MinThreshold  int
 	CoverageFiles []string
 	BaseBranch    *string // optional
@@ -43,12 +44,15 @@ func LoadConfigFromEnv() (*Config, error) {
 }
 
 func loadBasicConfigFromEnv(config *Config) error {
+	config.Workspace = os.Getenv("WORKSPACE")
+	if config.Workspace == "" {
+		return errors.New("WORKSPACE is not set")
+	}
 
 	minThreshold := os.Getenv("MIN_THRESHOLD")
 	if minThreshold == "" {
 		return errors.New("MIN_THRESHOLD is not set")
 	}
-	// parse minThreshold to int
 	threshold, err := strconv.Atoi(minThreshold)
 	if err != nil {
 		return errors.New("MIN_THRESHOLD is not a number")
