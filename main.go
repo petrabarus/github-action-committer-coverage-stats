@@ -5,6 +5,7 @@ import (
 	"log"
 
 	"github.com/petrabarus/github-action-committer-coverage-stats/internal"
+	"github.com/petrabarus/github-action-committer-coverage-stats/internal/coverage"
 )
 
 func main() {
@@ -16,7 +17,7 @@ func main() {
 	fmt.Printf("%+v\n", config)
 
 	// Load Coverage File
-	coverage, err := internal.LoadCoverageFiles(config.CoverageFiles)
+	coverage, err := coverage.LoadCoverageFiles(config.CoverageFiles)
 	if err != nil {
 		log.Fatalf("Failed to load coverage file: %v", err)
 	}

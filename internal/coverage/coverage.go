@@ -1,4 +1,4 @@
-package internal
+package coverage
 
 type Coverage struct {
 	FileCoverage []FileCoverage
