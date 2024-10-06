@@ -33,6 +33,9 @@ jobs:
         with:
           name: coverage-report
           path: coverage.out
+      
+      - name: Convert coverage to cobertura
+        run: ./bin/convert_gocov_cobertura.sh coverage.out coverage.xml  
 
       - name: Run SonarCloud
         uses: SonarSource/sonarcloud-github-action@master
