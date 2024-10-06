@@ -16,6 +16,25 @@ The list of coverage files to be analyzed. The coverage files should be in the f
 
 Default: `coverage.xml`
 
+### 1.3. `base`
+
+The base branch to compare the code coverage percentage with. This is useful for getting the summary comparison between the current branch and the base branch rather than all of the history. Optional. 
+If not provided, the summary will be calculated for all of the history.
+
+### 1.4. `from_timestamp`
+
+The timestamp to start the code coverage analysis from. This is useful for getting the summary comparison between the current branch and the base branch for a specific time period. Optional.
+If not provided, the analysis will start from the beginning of the repository.
+
+Format ISO 8601. Example: `2024-02-20T00:00:00Z`.
+
+### 1.5. `to_timestamp`
+
+The timestamp to end the code coverage analysis at. This is useful for getting the summary comparison between the current branch and the base branch for a specific time period. Optional.
+If not provided, the analysis will end at the current timestamp.
+
+Format ISO 8601. Example: `2024-02-20T00:00:00Z`.
+
 ## 2. Outputs
 
 This action will post a comment on the pull request with the list of committers and their code coverage percentage.

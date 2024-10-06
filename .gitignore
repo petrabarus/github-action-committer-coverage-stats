@@ -35,3 +35,7 @@ Thumbs.db
 
 # Log files
 *.log
+
+# Coverage files
+coverage.out
+coverage.xml

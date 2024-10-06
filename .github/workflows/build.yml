@@ -1,0 +1,44 @@
+# This workflow will build and test Rust code.
+name: Build
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Go
+        uses: actions/setup-go@v4
+        with:
+          go-version: 1.22
+
+      - name: Build
+        run: go build -v ./...
+
+      - name: Run tests
+        run: go test -coverprofile=coverage.out -v ./...
+
+      - name: Upload coverage report
+        uses: actions/upload-artifact@v4
+        with:
+          name: coverage-report
+          path: coverage.out
+      
+      - name: Convert coverage to cobertura
+        run: ./bin/convert_gocov_cobertura.sh coverage.out coverage.xml  
+
+      - name: Run SonarCloud
+        uses: SonarSource/sonarcloud-github-action@master
+        env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+            SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}

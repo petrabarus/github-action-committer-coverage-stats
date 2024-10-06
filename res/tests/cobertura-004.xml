@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE coverage SYSTEM "http://cobertura.sourceforge.net/xml/coverage-04.dtd">
+<coverage line-rate="0.62608695" branch-rate="0" lines-covered="72" lines-valid="115" branches-covered="0" branches-valid="0" complexity="0" version="" timestamp="1728190875372">
+	<packages>
+		<package name="github.com/petrabarus/github-action-committer-coverage-stats" line-rate="0" branch-rate="0" complexity="0" line-count="19" line-hits="0">
+			<classes>
+				<class name="-" filename="main.go" line-rate="0" branch-rate="0" complexity="0" line-count="19" line-hits="0">
+					<methods>
+						<method name="main" signature="" line-rate="0" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="13" hits="0"></line>
+								<line number="14" hits="0"></line>
+								<line number="15" hits="0"></line>
+								<line number="17" hits="0"></line>
+								<line number="20" hits="0"></line>
+								<line number="21" hits="0"></line>
+								<line number="22" hits="0"></line>
+								<line number="24" hits="0"></line>
+								<line number="27" hits="0"></line>
+								<line number="28" hits="0"></line>
+								<line number="29" hits="0"></line>
+								<line number="31" hits="0"></line>
+								<line number="34" hits="0"></line>
+								<line number="35" hits="0"></line>
+								<line number="36" hits="0"></line>
+								<line number="40" hits="0"></line>
+								<line number="41" hits="0"></line>
+								<line number="42" hits="0"></line>
+								<line number="43" hits="0"></line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="13" hits="0"></line>
+						<line number="14" hits="0"></line>
+						<line number="15" hits="0"></line>
+						<line number="17" hits="0"></line>
+						<line number="20" hits="0"></line>
+						<line number="21" hits="0"></line>
+						<line number="22" hits="0"></line>
+						<line number="24" hits="0"></line>
+						<line number="27" hits="0"></line>
+						<line number="28" hits="0"></line>
+						<line number="29" hits="0"></line>
+						<line number="31" hits="0"></line>
+						<line number="34" hits="0"></line>
+						<line number="35" hits="0"></line>
+						<line number="36" hits="0"></line>
+						<line number="40" hits="0"></line>
+						<line number="41" hits="0"></line>
+						<line number="42" hits="0"></line>
+						<line number="43" hits="0"></line>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="github.com/petrabarus/github-action-committer-coverage-stats/internal" line-rate="0.7419355" branch-rate="0" complexity="0" line-count="62" line-hits="46">
+			<classes>
+				<class name="-" filename="internal/output.go" line-rate="0" branch-rate="0" complexity="0" line-count="2" line-hits="0">
+					<methods>
+						<method name="OutputCoverageStats" signature="" line-rate="0" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="12" hits="0"></line>
+								<line number="13" hits="0"></line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="12" hits="0"></line>
+						<line number="13" hits="0"></line>
+					</lines>
+				</class>
+				<class name="-" filename="internal/stats.go" line-rate="0" branch-rate="0" complexity="0" line-count="2" line-hits="0">
+					<methods>
+						<method name="CalculateCoverageStats" signature="" line-rate="0" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="9" hits="0"></line>
+								<line number="10" hits="0"></line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="9" hits="0"></line>
+						<line number="10" hits="0"></line>
+					</lines>
+				</class>
+				<class name="-" filename="internal/config.go" line-rate="0.8214286" branch-rate="0" complexity="0" line-count="56" line-hits="46">
+					<methods>
+						<method name="LoadConfigFromEnv" signature="" line-rate="0.8" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="29" hits="1"></line>
+								<line number="31" hits="1"></line>
+								<line number="32" hits="1"></line>
+								<line number="33" hits="0"></line>
+								<line number="34" hits="0"></line>
+								<line number="37" hits="1"></line>
+								<line number="38" hits="1"></line>
+								<line number="39" hits="1"></line>
+								<line number="40" hits="1"></line>
+								<line number="43" hits="1"></line>
+							</lines>
+						</method>
+						<method name="loadBasicConfigFromEnv" signature="" line-rate="0.7083333" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="47" hits="1"></line>
+								<line number="48" hits="1"></line>
+								<line number="49" hits="0"></line>
+								<line number="52" hits="1"></line>
+								<line number="53" hits="1"></line>
+								<line number="54" hits="0"></line>
+								<line number="56" hits="1"></line>
+								<line number="57" hits="1"></line>
+								<line number="58" hits="0"></line>
+								<line number="60" hits="1"></line>
+								<line number="62" hits="1"></line>
+								<line number="63" hits="1"></line>
+								<line number="64" hits="0"></line>
+								<line number="66" hits="1"></line>
+								<line number="68" hits="1"></line>
+								<line number="69" hits="1"></line>
+								<line number="70" hits="0"></line>
+								<line number="73" hits="1"></line>
+								<line number="74" hits="1"></line>
+								<line number="75" hits="0"></line>
+								<line number="78" hits="1"></line>
+								<line number="79" hits="1"></line>
+								<line number="80" hits="0"></line>
+								<line number="83" hits="1"></line>
+							</lines>
+						</method>
+						<method name="loadGithubConfigFromEnv" signature="" line-rate="0.95454544" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="88" hits="1"></line>
+								<line number="89" hits="1"></line>
+								<line number="90" hits="1"></line>
+								<line number="94" hits="1"></line>
+								<line number="95" hits="1"></line>
+								<line number="96" hits="1"></line>
+								<line number="100" hits="1"></line>
+								<line number="101" hits="1"></line>
+								<line number="102" hits="1"></line>
+								<line number="106" hits="1"></line>
+								<line number="107" hits="1"></line>
+								<line number="108" hits="1"></line>
+								<line number="112" hits="1"></line>
+								<line number="113" hits="1"></line>
+								<line number="114" hits="1"></line>
+								<line number="118" hits="1"></line>
+								<line number="119" hits="1"></line>
+								<line number="120" hits="1"></line>
+								<line number="124" hits="1"></line>
+								<line number="125" hits="1"></line>
+								<line number="126" hits="0"></line>
+								<line number="129" hits="1"></line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="29" hits="1"></line>
+						<line number="31" hits="1"></line>
+						<line number="32" hits="1"></line>
+						<line number="33" hits="0"></line>
+						<line number="34" hits="0"></line>
+						<line number="37" hits="1"></line>
+						<line number="38" hits="1"></line>
+						<line number="39" hits="1"></line>
+						<line number="40" hits="1"></line>
+						<line number="43" hits="1"></line>
+						<line number="47" hits="1"></line>
+						<line number="48" hits="1"></line>
+						<line number="49" hits="0"></line>
+						<line number="52" hits="1"></line>
+						<line number="53" hits="1"></line>
+						<line number="54" hits="0"></line>
+						<line number="56" hits="1"></line>
+						<line number="57" hits="1"></line>
+						<line number="58" hits="0"></line>
+						<line number="60" hits="1"></line>
+						<line number="62" hits="1"></line>
+						<line number="63" hits="1"></line>
+						<line number="64" hits="0"></line>
+						<line number="66" hits="1"></line>
+						<line number="68" hits="1"></line>
+						<line number="69" hits="1"></line>
+						<line number="70" hits="0"></line>
+						<line number="73" hits="1"></line>
+						<line number="74" hits="1"></line>
+						<line number="75" hits="0"></line>
+						<line number="78" hits="1"></line>
+						<line number="79" hits="1"></line>
+						<line number="80" hits="0"></line>
+						<line number="83" hits="1"></line>
+						<line number="88" hits="1"></line>
+						<line number="89" hits="1"></line>
+						<line number="90" hits="1"></line>
+						<line number="94" hits="1"></line>
+						<line number="95" hits="1"></line>
+						<line number="96" hits="1"></line>
+						<line number="100" hits="1"></line>
+						<line number="101" hits="1"></line>
+						<line number="102" hits="1"></line>
+						<line number="106" hits="1"></line>
+						<line number="107" hits="1"></line>
+						<line number="108" hits="1"></line>
+						<line number="112" hits="1"></line>
+						<line number="113" hits="1"></line>
+						<line number="114" hits="1"></line>
+						<line number="118" hits="1"></line>
+						<line number="119" hits="1"></line>
+						<line number="120" hits="1"></line>
+						<line number="124" hits="1"></line>
+						<line number="125" hits="1"></line>
+						<line number="126" hits="0"></line>
+						<line number="129" hits="1"></line>
+					</lines>
+				</class>
+				<class name="-" filename="internal/git.go" line-rate="0" branch-rate="0" complexity="0" line-count="2" line-hits="0">
+					<methods>
+						<method name="LoadGitRepository" signature="" line-rate="0" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="7" hits="0"></line>
+								<line number="8" hits="0"></line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="7" hits="0"></line>
+						<line number="8" hits="0"></line>
+					</lines>
+				</class>
+			</classes>
+		</package>
+		<package name="github.com/petrabarus/github-action-committer-coverage-stats/internal/coverage" line-rate="0.7647059" branch-rate="0" complexity="0" line-count="34" line-hits="26">
+			<classes>
+				<class name="-" filename="internal/coverage/cobertura.go" line-rate="0.8125" branch-rate="0" complexity="0" line-count="32" line-hits="26">
+					<methods>
+						<method name="LoadCoverageFromCoberturaXML" signature="" line-rate="0.75" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="11" hits="1"></line>
+								<line number="13" hits="1"></line>
+								<line number="14" hits="1"></line>
+								<line number="15" hits="0"></line>
+								<line number="16" hits="0"></line>
+								<line number="19" hits="1"></line>
+								<line number="21" hits="1"></line>
+								<line number="22" hits="1"></line>
+								<line number="23" hits="1"></line>
+								<line number="24" hits="0"></line>
+								<line number="26" hits="1"></line>
+								<line number="29" hits="1"></line>
+							</lines>
+						</method>
+						<method name="loadFileCoverage" signature="" line-rate="0.8181818" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="33" hits="1"></line>
+								<line number="34" hits="1"></line>
+								<line number="35" hits="1"></line>
+								<line number="36" hits="0"></line>
+								<line number="38" hits="1"></line>
+								<line number="39" hits="1"></line>
+								<line number="41" hits="1"></line>
+								<line number="42" hits="1"></line>
+								<line number="43" hits="0"></line>
+								<line number="45" hits="1"></line>
+								<line number="47" hits="1"></line>
+							</lines>
+						</method>
+						<method name="loadLineCoverage" signature="" line-rate="0.8888889" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="51" hits="1"></line>
+								<line number="53" hits="1"></line>
+								<line number="54" hits="1"></line>
+								<line number="55" hits="1"></line>
+								<line number="57" hits="1"></line>
+								<line number="58" hits="1"></line>
+								<line number="59" hits="0"></line>
+								<line number="61" hits="1"></line>
+								<line number="67" hits="1"></line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="11" hits="1"></line>
+						<line number="13" hits="1"></line>
+						<line number="14" hits="1"></line>
+						<line number="15" hits="0"></line>
+						<line number="16" hits="0"></line>
+						<line number="19" hits="1"></line>
+						<line number="21" hits="1"></line>
+						<line number="22" hits="1"></line>
+						<line number="23" hits="1"></line>
+						<line number="24" hits="0"></line>
+						<line number="26" hits="1"></line>
+						<line number="29" hits="1"></line>
+						<line number="33" hits="1"></line>
+						<line number="34" hits="1"></line>
+						<line number="35" hits="1"></line>
+						<line number="36" hits="0"></line>
+						<line number="38" hits="1"></line>
+						<line number="39" hits="1"></line>
+						<line number="41" hits="1"></line>
+						<line number="42" hits="1"></line>
+						<line number="43" hits="0"></line>
+						<line number="45" hits="1"></line>
+						<line number="47" hits="1"></line>
+						<line number="51" hits="1"></line>
+						<line number="53" hits="1"></line>
+						<line number="54" hits="1"></line>
+						<line number="55" hits="1"></line>
+						<line number="57" hits="1"></line>
+						<line number="58" hits="1"></line>
+						<line number="59" hits="0"></line>
+						<line number="61" hits="1"></line>
+						<line number="67" hits="1"></line>
+					</lines>
+				</class>
+				<class name="-" filename="internal/coverage/coverage.go" line-rate="0" branch-rate="0" complexity="0" line-count="2" line-hits="0">
+					<methods>
+						<method name="LoadCoverageFiles" signature="" line-rate="0" branch-rate="0" complexity="0" line-count="0" line-hits="0">
+							<lines>
+								<line number="18" hits="0"></line>
+								<line number="19" hits="0"></line>
+							</lines>
+						</method>
+					</methods>
+					<lines>
+						<line number="18" hits="0"></line>
+						<line number="19" hits="0"></line>
+					</lines>
+				</class>
+			</classes>
+		</package>
+	</packages>
+	<sources>
+		<source>/Users/petra/Projects/petrabarus/github-action-committer-coverage-stats</source>
+	</sources>
+</coverage>
